@@ -6,7 +6,24 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+#text_citation
+{
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+#name_citation
+{
+    font-size: 13px;
+}
+.title_description
+{
+    font-size: 20px;
+}
+#title_description_bloc2
+{
+    max-width: 800px;
+    margin-left: 10%;
+}
 a,
 button {
     transition: all .3s ease-in-out;
