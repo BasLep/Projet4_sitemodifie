@@ -24,6 +24,10 @@ body {
     max-width: 800px;
     margin-left: 10%;
 }
+#logo_header
+{
+    height: 40px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -719,8 +723,13 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
 }
-
+.col-sm-3
+{
+    margin-left: 25px;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
